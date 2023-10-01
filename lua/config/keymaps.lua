@@ -11,6 +11,8 @@ map("n", "<C-t>", ":ToggleTerm direction=float<cr>", { noremap = true, silent = 
 map("t", "<C-t>", "<cmd>ToggleTerm direction=float<cr>", { noremap = true, silent = true })
 map("n", "<C-/>", ":ToggleTerm direction=horizontal<cr>", { noremap = true, silent = true })
 map("t", "<C-/>", "<cmd>ToggleTerm direction=horizontal<cr>", { noremap = true, silent = true })
+map("n", "<Tab>", "<cmd>BufferLineCycleNext<cr>", opts)
+map("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<cr>", opts)
 map("n", "q", "<Nop>", opts)
 -- map('t', '<C-t>', ':ToggleTerm direction=float<cr>', { noremap = true, silent = true })
 
