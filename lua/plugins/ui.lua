@@ -1,8 +1,20 @@
 return {
+  -- {
+  --   "navarasu/onedark.nvim",
+  --   config = function()
+  --     vim.cmd("colorscheme onedark")
+  --   end,
+  -- },
+  -- {
+  --   "olimorris/onedarkpro.nvim",
+  --   config = function()
+  --     vim.cmd("colorscheme onedark")
+  --   end,
+  -- },
   {
-    "navarasu/onedark.nvim",
+    "RRethy/nvim-base16",
     config = function()
-      vim.cmd("colorscheme onedark")
+      vim.cmd("colorscheme base16-onedark")
     end,
   },
   {

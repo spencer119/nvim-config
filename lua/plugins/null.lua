@@ -14,6 +14,7 @@ return {
           format.stylua,
           format.shfmt,
           format.black,
+          format.ocamlformat,
         },
       }
     end,
