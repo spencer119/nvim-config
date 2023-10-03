@@ -9,6 +9,7 @@ return {
       },
       N = { "<cmd>NullLsInfo<cr>", "Null-ls" },
       M = { "<cmd>Mason<cr>", "Mason" },
+      B = { "<cmd>BrowserBookmarks chrome_beta<cr>", "Browser bookmarks" },
       -- r = {
       -- name = "Run code",
       -- r = { "<cmd>RunCode<cr>", "Run code with defaults" },

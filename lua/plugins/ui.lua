@@ -43,10 +43,12 @@ return {
           " " .. " Config",
           ":cd ~/.config/nvim<cr> <bar> :edit lua<cr> <bar> :lua vim.notify('Working directory changed', 'success', {timeout = 2500, title = 'Neovim'})<cr> <bar>:Telescope find_files<cr>"
         ),
+        dashboard.button("s", "󰑴 " .. "School", ":cd ~/school <bar> :Telescope find_files<CR>"),
+        dashboard.button("p", " " .. "Projects", ":cd ~/projects <bar> :Telescope find_files<CR>"),
         -- dashboard.button("c", " " .. " Config", ":e $MYVIMRC <CR>"),
         --         '<cmd>cd ~/.config/nvim<cr> <bar> :edit lua<cr> <bar> :lua vim.notify("Working directory changed", "success", {timeout = 3000, title = "Neovim"})<cr>'
 
-        dashboard.button("s", " " .. " Restore Session", [[:lua require("persistence").load() <cr>]]),
+        dashboard.button("S", " " .. " Restore Session", [[:lua require("persistence").load() <cr>]]),
         dashboard.button("l", "󰒲 " .. " Lazy", ":Lazy<CR>"),
         dashboard.button("q", " " .. " Quit", ":qa<CR>"),
       }

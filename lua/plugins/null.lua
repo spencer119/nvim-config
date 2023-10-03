@@ -15,6 +15,7 @@ return {
           format.shfmt,
           format.black,
           format.ocamlformat,
+          format.format_r,
         },
       }
     end,
