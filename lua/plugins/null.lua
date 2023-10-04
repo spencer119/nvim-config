@@ -16,6 +16,10 @@ return {
           format.black,
           format.ocamlformat,
           format.format_r,
+          format.beautysh,
+          format.taplo,
+          -- Diagnostics
+          diagnostics.zsh,
         },
       }
     end,
