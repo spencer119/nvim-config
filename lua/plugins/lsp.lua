@@ -99,12 +99,6 @@ return {
       lspconfig.util.default_config = vim.tbl_extend("force", lspconfig.util.default_config, {
         capabilities = global_capabilities,
       })
-
-      -- lsp_installer.on_server_ready(function(server)
-      --   server:setup({
-      --     on_attach = on_attach,
-      --   })
-      -- end)
     end,
   },
 }

@@ -32,6 +32,7 @@ return {
       }
     end,
   },
+  { "mboughaba/i3config.vim" },
   {
     "b0o/SchemaStore.nvim",
     lazy = true,
