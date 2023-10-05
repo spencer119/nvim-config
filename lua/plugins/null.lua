@@ -16,7 +16,10 @@ return {
           format.black,
           format.ocamlformat,
           format.format_r,
-          format.beautysh,
+          format.beautysh.with({
+            filetypes = { "zsh" },
+            extra_args = { "-i", "2" },
+          }),
           format.taplo,
           -- Diagnostics
           diagnostics.zsh,
