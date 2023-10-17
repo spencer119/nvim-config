@@ -41,7 +41,7 @@ return {
         { name = "luasnip" },
         { name = "buffer" },
         { name = "path" },
-        -- { name = "neorg"  }
+        { name = "neorg" },
       })
       -- opts.sources = cmp.config.sources({
       --   { name = "nvim_lsp" },
