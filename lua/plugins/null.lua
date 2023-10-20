@@ -20,6 +20,7 @@ return {
             filetypes = { "zsh" },
             extra_args = { "-i", "2" },
           }),
+          format.sql_formatter,
           format.taplo,
           -- Diagnostics
           diagnostics.zsh,
